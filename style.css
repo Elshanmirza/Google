@@ -1,0 +1,226 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+body {
+    background-color: #202124;
+    position: relative;
+    height: 100vh;
+}
+
+header {
+    height: 60px;
+    padding-top: 8px;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.gmail {
+    margin-right: 16px ;
+}
+
+.pictures {
+    margin-right: 19px ;
+}
+
+.gmail:hover {
+    text-decoration: underline;
+    
+}
+
+.pictures:hover {
+    text-decoration: underline;
+}
+
+.apps {
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13px;
+}
+
+.apps:hover {
+    background-color:#2F3034 ;
+}
+
+.apps svg {
+    height: 24px;
+    width: 24px;
+    fill: #e2e2e3;
+}
+
+.apps svg:hover {
+    background-color: #2F3034;
+}
+
+.apps img:hover {
+    background-color: #353638;
+}
+
+.login {
+    color: #202124;
+    border: 1px solid #8ab4f8;
+    background-color: #8ab4f8;
+    height: 36px;
+    width: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.login:hover {
+    background-color: #93baf9;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.googlepic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 27%;
+}
+
+.search {
+    display: flex;
+    position: absolute;
+    top: 47%;
+}
+
+.search input {
+    background-color: transparent;
+    border: 1px solid #5f6368;
+    width: 527px;
+    height: 39px;
+    border-radius: 40px;
+    padding-left: 50px;
+}
+
+.search input:hover {
+    background-color: #303134;
+    border: 1px solid #303134;
+    box-shadow: 2px 2px 2px 2px #1d1e1f;
+}
+
+.search input:focus {
+    outline: 1px solid #303134;
+    color: #ffff;
+}
+
+.search svg {
+    height: 20px;
+    position: absolute;
+    left: 13px;
+    top: 12px;
+    fill: #999fa5;
+}
+
+.links {
+    position: absolute;
+    top: 60%;
+
+}
+
+.links a {
+    border: 1px solid #303134;
+    text-decoration: none;
+    color: #e8eaed;
+    background-color: #303134;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.links a:hover {
+    border: 1px solid #5f6368;
+}
+
+.lang {
+    height: 28px;
+    width: 135px;
+    font-size: 13px;
+    color: #bdc1c6;
+    position: absolute;
+    top: 70%;
+    
+}
+.lang a {
+    text-decoration: none;
+    color: #8ab4f8;
+}
+.lang a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #171717;
+    height: 94px;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    font-size: 15px;
+}
+
+h4 {
+    color: #9aa0a6;
+    height: 48px;
+    display: flex;
+    border-bottom: 1px solid #212327;
+    align-items: center;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.feet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 46px;
+    align-items: center;
+}
+
+.foot1 a {
+    text-decoration: none;
+    color: #999da2;
+    padding-right: 5px;
+    margin-left: 20px;
+}
+
+.foot1 a:hover {
+    text-decoration: underline;
+}
+
+.foot2 a {
+    text-decoration: none;
+    color: #999da2;
+    margin-right: 25px;
+}
+
+.foot2 a:hover {
+    text-decoration: underline; 
+}
